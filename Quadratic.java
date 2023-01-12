@@ -15,5 +15,8 @@ class Quadratic {
       double x2 = ((b*-1) - Math.sqrt(b*b - 4*a*c)) /(2*a);
       System.out.println("x: " + x1 +","+ x2);
       }
+
+
+      
     }
   }
