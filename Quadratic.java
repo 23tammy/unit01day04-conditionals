@@ -8,7 +8,7 @@ class Quadratic {
         System.out.println("provide sufficient arguements.");
       } else {
         if (a == 0) {
-          System.out.println("x: " + (c / b));
+          System.out.println("x: " + ((c*-1) / b));
         } else {
           if (b*b - 4*a*c < 0) {
             System.out.println("No real solutions.");
