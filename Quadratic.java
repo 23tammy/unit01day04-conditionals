@@ -1,12 +1,11 @@
 class Quadratic {
     public static void main(String[] args) {
-      double a = Double.parseDouble(args[0]);
-      double b = Double.parseDouble(args[1]);
-      double c = Double.parseDouble(args[2]);
 
-      if (args.length < 3) {
-        System.out.println("provide sufficient arguements.");
-      } else {
+
+      if (args.length == 3) {
+        double a = Double.parseDouble(args[0]);
+        double b = Double.parseDouble(args[1]);
+        double c = Double.parseDouble(args[2]);
         if (a == 0) {
           System.out.println("x: " + ((c*-1) / b));
         } else {
@@ -20,8 +19,11 @@ class Quadratic {
 
         }
         
+      } else {
+        System.out.println("provide sufficient arguements.");
+      } 
       }
 
 
     }
-  }
+  
