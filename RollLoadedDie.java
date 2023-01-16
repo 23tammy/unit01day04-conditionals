@@ -1,3 +1,5 @@
+// this is pretty close to perfect. But I have OCD and am a former math teacher, so probability is really important to me:
+// 
 public class RollLoadedDie {
     public static void main(String[] args) {
       
